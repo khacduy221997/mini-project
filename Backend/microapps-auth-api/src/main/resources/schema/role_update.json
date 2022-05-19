@@ -1,0 +1,37 @@
+{
+  "$id": "https://example.com/schema/role_update.json",
+  "$schema": "https://json-schema.org/draft/2019-09/schema#",
+  "title": "Rules",
+  "type": "object",
+  "required": [
+    "description",
+    "role_name",
+    "permissions"
+  ],
+  "properties": {
+    "role_name": {
+      "type": "string",
+      "description": "Role Name.",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "description": {
+      "type": "string",
+      "description": "Email.",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "permissions": {
+      "type": "array",
+      "description": "Permission ID List",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "type": "integer",
+        "description": "Each item is a Permission ID.",
+        "minimum": 1
+      }
+    }
+  },
+  "additionalProperties": true
+}

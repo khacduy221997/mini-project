@@ -1,0 +1,23 @@
+{
+  "$id": "https://example.com/schema/user_change_password.json",
+  "$schema": "https://json-schema.org/draft/2019-09/schema#",
+  "title": "Rules",
+  "type": "object",
+  "required": [
+    "old_password",
+    "new_password"
+  ],
+  "properties": {
+    "old_password": {
+      "type": "string",
+      "description": "Old Password.",
+      "pattern": "[A-Za-z0-9$&+,:;=?@#|'<>.-^*()%!]{8,20}"
+    },
+    "new_password": {
+      "type": "string",
+      "description": "New Password.",
+      "pattern": "[A-Za-z0-9$&+,:;=?@#|'<>.-^*()%!]{8,20}"
+    }
+  },
+  "additionalProperties": false
+}

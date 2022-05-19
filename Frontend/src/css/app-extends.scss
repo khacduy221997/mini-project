@@ -1,0 +1,339 @@
+.box-other-info {
+  width: 100%;
+  height: max-content;
+  justify-content: center;
+}
+
+.box-other-info .other-info__content {
+  opacity: 1;
+  width: 100%;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: fit-content;
+}
+
+.box-other-info .other-info__content .content__box-about .box-content .list-about {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.box-other-info .other-info__content>[class*="content__box-"]:not(:last-child) {
+  margin-bottom: 10 px;
+}
+
+#otherInfoPopup .box-other-info .other-info__content .content__box-about {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+}
+
+.box-other-info .other-info__content .content__box-about .box-content {
+  width: 100%;
+}
+
+#otherInfoPopup .box-other-info .other-info__content .content__box-about .box-content .list-about {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.box-other-info .other-info__content .content__box-about .box-content .list-about .item-about:not(:nth-of-type(4n)) {
+  margin: 10px;
+}
+
+.box-other-info .other-info__content .content__box-about .box-content .list-about .item-about {
+  width: 167px;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 1rem;
+  -webkit-box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px,
+    rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px,
+    rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  text-decoration: none !important;
+}
+
+.box-other-info .other-info__content .content__box-about .box-content .list-about .item-about>p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none !important;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.box-other-info .other-info__content .content__box-about .box-content .list-about .item-about>img {
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-other-info .other-info__content .content__box-about .box-content .list-about .item-about1 {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 1rem;
+  -webkit-box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px,
+    rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px,
+    rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  text-decoration: none !important;
+}
+
+.list-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-content .item-content:not(:nth-of-type(3n)) {
+  margin-right: 10px;
+}
+
+.box-content .list-content .item-content {
+  width: calc((100% - 20px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  border-radius: 1rem;
+}
+
+.box-content .list-content .item-content>p {
+  width: 100%;
+  margin-top: 12px;
+  font-size: 12px;
+  text-decoration: none !important;
+  color: #2a2a2a;
+}
+
+.q-field--filled .q-field__control {
+  padding: 0 !important;
+  background: none !important;
+}
+
+.form-group .q-field__native,
+.form-group .q-field__append {
+  height: 32px !important;
+}
+
+.q-field--filled .q-field__control:before {
+  background: none !important;
+  border-bottom: none !important;
+}
+
+.form-group .q-field__control {
+  color: var(--q-primary);
+  height: inherit !important;
+  outline: none;
+}
+
+.mr-custom {
+  margin-right: 0.5rem !important;
+}
+
+.form-group .q-btn:before {
+  content: none !important;
+}
+
+.my-btn {
+  border: none;
+  width: 0;
+  width: 43px !important;
+  height: 43px !important;
+  border-radius: 8px;
+}
+
+.add-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  /*  left: calc(50% - 48px / 2 + 147.5px);
+  top: calc(50% - 48px / 2 + 275px);*/
+  right: 20px;
+  bottom: 90px;
+}
+
+.backlocation {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  height: 50px;
+  left: 0px;
+  top: 50px;
+}
+
+.text-color {
+  color: #2a2a2a !important;
+}
+
+.information {
+  background-color: #fff5d8;
+  height: 150px !important;
+}
+
+#outer-circle {
+  background-image: url("~assets/no-cart.png");
+  background-size: cover;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.circular--square {
+  border-radius: 50%;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.orders-sticky-header-table {
+  /* height or max-height is important */
+  position: absolute;
+  height: calc(100% - 265px - 72px);
+}
+
+.my-sticky-header-table {
+  /* height or max-height is important */
+  position: absolute;
+  height: calc(100% - 265px);
+}
+
+.my-sticky-fixed-header-table {
+  /* height or max-height is important */
+  position: fixed;
+  height: calc(100% - 235px);
+  width: 93%;
+}
+
+.my-sticky-fixed-2-header-table {
+  /* height or max-height is important */
+  position: fixed;
+  height: calc(100% - 310px);
+  width: 93%;
+}
+
+.q-table__top,
+.q-table__bottom,
+thead tr:first-child th {
+  /* bg color is important for th; just specify one */
+  background-color: #c1f4cd;
+}
+
+thead tr th {
+  position: sticky;
+  z-index: 1;
+}
+
+thead tr:first-child th {
+  top: 0;
+}
+
+/* this is when the loading indicator appears */
+.q-table--loading thead tr:last-child th {
+  /* height of all previous header rows */
+  top: 48px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.bg-opacity-25 {
+  opacity: 0.25;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.p-05 {
+  padding: 0.5rem !important;
+}
+
+.duration-200 {
+  transition-duration: .2s;
+}
+.transition {
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  transition-duration: 150ms;
+}
+
+button {
+  background-color: transparent;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+
+.hover-bg-white:hover {
+  background: rgba(#fff, 0.25) !important;
+}
+
+.focus-outline-none:focus {
+  outline: none !important;
+}
+
